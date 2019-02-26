@@ -28,9 +28,14 @@ body {
     padding: 10px;
     margin: 10px;
     text-align: center;
+    transition: 0.5s;
 }
 
 #image-list img {
     width: 100%
+}
+
+#image-list li:hover {
+    background-color: #FFb3CC;
 }
 
